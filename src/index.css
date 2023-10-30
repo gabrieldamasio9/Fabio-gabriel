@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  font-family:  sans-serif;
+}
+button {
+
+  border-radius: 8px;
+  border: 2px solid transparent;
+  padding: 0.5em 4em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #3e2f2f;
+  cursor: pointer;
+  transition: border-color 0.8s;
+}
+button:hover {
+  border-color: #595ec1;
+}
+
+
